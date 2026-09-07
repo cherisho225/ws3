@@ -1,0 +1,71 @@
+.container {
+    position: relative;
+    width: 660px;
+    height: 580px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+
+/* EYES */
+.eyes {
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 245px;
+}
+
+.eye {
+    width: 188px;
+    height: 174px;
+    background-color: #720875;
+    border-radius: 15px;
+}
+
+
+/* MOUTH */
+.mouth {
+    position: absolute;
+    width: 375px;
+    height: 83px;
+    background-color: #64086a;
+    border-radius: 0 0 14px 14px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+}
+
+
+/* LEFT RAISED PART */
+.mouth::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 110px;
+    background-color: #64086a;
+
+    left: 0;
+    top: -27px;
+
+    border-radius: 14px;
+}
+
+
+/* RIGHT RAISED PART */
+.mouth::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 110px;
+    background-color: #64086a;
+
+    right: 0;
+    top: -27px;
+
+    border-radius: 14px;
+}
