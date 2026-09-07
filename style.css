@@ -7,8 +7,6 @@
     margin: 0 auto;
 }
 
-
-/* EYES */
 .eyes {
     position: absolute;
     top: 35px;
@@ -26,8 +24,6 @@
     border-radius: 15px;
 }
 
-
-/* MOUTH */
 .mouth {
     position: absolute;
     width: 375px;
@@ -40,8 +36,6 @@
     bottom: 100px;
 }
 
-
-/* LEFT RAISED PART */
 .mouth::before {
     content: "";
     position: absolute;
@@ -55,8 +49,6 @@
     border-radius: 14px;
 }
 
-
-/* RIGHT RAISED PART */
 .mouth::after {
     content: "";
     position: absolute;
